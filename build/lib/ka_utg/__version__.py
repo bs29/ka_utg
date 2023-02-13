@@ -1,0 +1,10 @@
+__title__ = 'ka_utg'
+__description__ = 'General Utilities.'
+__url__ = 'https://ka-utg.readthedocs.io/en/latest'
+__version__ = '2023.1'
+__build__ = 0x022200
+__author__ = 'Bernd Stroehle'
+__author_email__ = 'bernd.stroehle@bs29.com'
+__license__ = 'Apache-2.0'
+__copyright__ = 'Copyright 2023 bs29'
+__cake__ = u'\u2728 \U0001f370 \u2728'

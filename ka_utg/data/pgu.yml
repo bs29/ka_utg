@@ -1,0 +1,25 @@
+# Module LinkedIn
+ea_pgu:
+  # Robotics
+  pgu:
+    dir:
+      logs: "/data/ea_lin/bot/logs"
+      errs: "/data/ea_lin/bot/errs"
+      reps: "/data/ea_lin/bot/reps"
+
+mesh:
+  user: admin
+  password: va9nie3IeK
+  host: 'http://ec2-3-123-251-3.eu-central-1.compute.amazonaws.com'
+  search:
+    path: '/api/mesh/search/term'
+    params: 'label={keyword}'
+  descriptor-parents:
+    path: '/api/mesh/descriptor/parents/%parent/list'
+
+postgress:
+    user: admin
+    password: va9nie3IeK
+    host: 'http://ec2-3-123-251-3.eu-central-1.compute.amazonaws.com'
+    path: '/api/mesh/search/term'
+    params: 'label=keyword'
