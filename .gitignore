@@ -7,5 +7,6 @@ __pycache__
 [._]s[a-w][a-z]
 
 *.egg-info
+build
 .DS_Store
 .coverage
